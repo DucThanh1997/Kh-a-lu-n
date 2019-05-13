@@ -60,3 +60,85 @@ player_1.name = 'Bundesliga players' # gán tên cho cái series
 player_1.index.name = 'Player names'  # gán tên cho cái index
 print("In ra cái series mới:\n", player_1)
 ```
+![image](https://user-images.githubusercontent.com/45547213/57637171-eb238180-75d4-11e9-813a-d4cdeda58e17.png)
+
+
+
+## Data frame
+- Định nghĩa
+Nó biến 1 cái dict thành 1 cái bảng
+```
+states = {'State': ['Gujarat', 'Tamil Nadu', ' Andhra', 'Karnataka', 'Kerala'],
+          'Population': [36, 44, 67, 89, 34],
+          'Language': ['Gujarati', 'Tamil', 'Telugu', 'Kannada', 'Malayalam']}
+india = DataFrame(states)  # creating a data frame
+print(india)
+```
+![image](https://user-images.githubusercontent.com/45547213/57637509-cda2e780-75d5-11e9-88f1-108c4bef49fa.png)
+
+Bạn có thể thay đổi thứ tự của các cột so với dict ban đầu 
+```
+print(DataFrame(states, columns=['State', 'Language', 'Population']))
+```
+![image](https://user-images.githubusercontent.com/45547213/57637636-1fe40880-75d6-11e9-9048-582c4ab78685.png)
+
+Bạn cũng có thể thay đổi kiểu index và truy cập từng phần tử
+```
+new_farme = DataFrame(states, columns=['State', 'Language', 'Population', 'Per Capita Income'], index=['a', 'b', 'c', 'd', 'e'])
+print('frame mới:\n', new_farme, '\n')
+
+print('lấy cột state:\n', new_farme['State'], '\n')
+
+print('còn cách này để value của 1 cột:\n', new_farme.Population, '\n')
+```
+
+
+![image](https://user-images.githubusercontent.com/45547213/57638132-51110880-75d7-11e9-813a-54b93a73b0da.png)
+
+
+- Bạn có thể gán giá chị cho cột, lấy value theo dòng
+```
+print('lấy từng dòng:\n', new_farme.iloc[[2]])
+
+new_farme['Per Capita Income'] = 99  #Gán giá trị cho cột
+
+print('frame mới:\n', new_farme, '\n')
+```
+![image](https://user-images.githubusercontent.com/45547213/57638971-1dcf7900-75d9-11e9-8107-a139a06101c3.png)
+
+- Bạn có thể thêm cột rồi xóa cột, rồi đảo cột 
+```
+ew_farme['Development'] = new_farme.State == 'Gujarat'  # Tạo cột mới trả về true ở dòng có state là gujarat
+print(new_farme)
+del(new_farme['Development']) # Xóa cột mới
+print(new_farme)
+print(elections.T
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
