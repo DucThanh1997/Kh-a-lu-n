@@ -1,0 +1,17 @@
+ID,Age,Gender,Education,Mariage,Properites,Salary,Debt,TimeToPay,BadDebt
+1,25,Nam,DH,Doc than,O cung bo me,7000000,20000000,6,0
+2,40,Nam,THPT,Da Ket Hon,Nha so huu,20000000,100000000,9,0
+3,35,Nu,DH,Tung ly hon,Nha thue,12000000,30000000,4,1
+4,27,Nam,THPT,Da Ket Hon,O cung bo me,9000000,15000000,6,0
+5,31,Nu,THCS,Doc than,Nha thue,6000000,23000000,6,1
+6,36,Nu,DH,Da Ket Hon,Nha so huu,8000000,20000000,6,1
+7,48,Nam,DH,Doc than,Nha thue,7000000,10000000,3,0
+8,26,Nu,DH,Da Ket Hon,Nha thue,8000000,10000000,3,1
+9,33,Nam,CD,Tung ly hon,O cung bo me,5000000,12000000,4,1
+10,29,Nam,THPT,Doc than,Nha thue,10000000,25000000,9,0
+11,38,Nam,THPT,Da Ket Hon,Nha so huu,15000000,60000000,9,0
+12,44,Nu,DH,Doc than,Nha so huu,14000000,20000000,4,1
+13,42,Nam,DH,Da Ket Hon,Nha so huu,10000000,30000000,4,0
+14,28,Nu,DH,Doc than,Nha thue,7000000,20000000,6,1
+15,30,Nu,DH,Da Ket Hon,O cung bo me,6000000,16000000,6,1
+16,32,Nam,DH,Da Ket Hon,Nha so huu,15000000,40000000,6,0
