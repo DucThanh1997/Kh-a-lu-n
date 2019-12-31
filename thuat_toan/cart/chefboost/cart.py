@@ -7,8 +7,11 @@ config = {"algorithm": "CART"}
 
 model = chef.fit(df.copy(), config)
 
-test = df.iloc[2]
+test = ["Sunny",90,85,"Strong"]
 
 print(chef.predict(model, test))
 
+# tim cach luu model
+# lay source code va tim hieu no, cau hinh tham so dau vao 
+# lam cai form de nguoi ta nhap dau vao (web)
 
